@@ -65,11 +65,14 @@ p {
 
 .image-container {
     display: flex;
-    gap: 10px; /* Espacio entre imágenes */
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
 }
 
 .image-container img {
-    width: 150px; /* Ajusta el tamaño de las imágenes según necesites */
-    height: auto;
-    border-radius: 5px; /* Bordes redondeados opcionales */
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 5px;
 }
