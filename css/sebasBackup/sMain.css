@@ -62,3 +62,14 @@ p {
     text-decoration: none;
     padding: 10px;
 }
+
+.image-container {
+    display: flex;
+    gap: 10px; /* Espacio entre imágenes */
+}
+
+.image-container img {
+    width: 150px; /* Ajusta el tamaño de las imágenes según necesites */
+    height: auto;
+    border-radius: 5px; /* Bordes redondeados opcionales */
+}
