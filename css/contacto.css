@@ -1,0 +1,106 @@
+/* General */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #2b0000;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+/* Navbar */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #8b0000;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    z-index: 1000; /* Asegura que esté por encima del resto del contenido */
+}
+
+.element {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+    .element:hover {
+        color: #ffcc80;
+    }
+
+/* Contenedor de contacto */
+.container {
+    width: 90%;
+    max-width: 450px;
+    background: #2c2c2c;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.1);
+}
+
+.contact-item {
+    background-color: #3c3c3c;
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: background 0.3s ease-in-out;
+}
+
+    .contact-item:hover {
+        background-color: #4c4c4c;
+    }
+
+    /* Iconos */
+    .contact-item img {
+        width: 30px;
+        height: 30px;
+    }
+
+
+.btn {
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+    .btn:hover {
+        transform: scale(1.1);
+    }
+
+.navigation {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #8b0000;
+    display: flex;
+    justify-content: space-between; /* Esto empuja las flechas a los extremos */
+    align-items: center;
+    padding: 10px;
+    z-index: 1000;
+}
+
+.arrow {
+    width: 50px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
