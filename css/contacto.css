@@ -24,7 +24,7 @@ nav {
     display: flex;
     justify-content: center;
     gap: 20px;
-    z-index: 1000; /* Asegura que esté por encima del resto del contenido */
+    z-index: 1000; /* Asegura que estï¿½ por encima del resto del contenido */
 }
 
 .element {
@@ -43,7 +43,7 @@ nav {
 .container {
     width: 90%;
     max-width: 450px;
-    background: #2c2c2c;
+    background: #971217;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.1);
@@ -98,7 +98,7 @@ nav {
 }
 
 .arrow {
-    width: 50px; /* Ajusta el tamaño según sea necesario */
+    width: 50px; /* Ajusta el tamaï¿½o segï¿½n sea necesario */
     height: auto;
     cursor: pointer;
     margin-right: 20px;
