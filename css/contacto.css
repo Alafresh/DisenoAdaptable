@@ -24,7 +24,7 @@ nav {
     display: flex;
     justify-content: center;
     gap: 20px;
-    z-index: 1000; /* Asegura que est� por encima del resto del contenido */
+    z-index: 1000; 
 }
 
 .element {
@@ -98,7 +98,7 @@ nav {
 }
 
 .arrow {
-    width: 50px; /* Ajusta el tama�o seg�n sea necesario */
+    width: 50px; 
     height: auto;
     cursor: pointer;
     margin-right: 20px;
