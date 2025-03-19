@@ -5,84 +5,36 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #2b0000;
     font-family: Arial, sans-serif;
     color: white;
     text-align: center;
+    
 }
 
 .container {
-    width: 90%;
+    width: 100%;
     max-width: 400px;
-}
-
-#profile {
-    width: 320px;
-    height: 320px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 h1 {
     font-size: 2rem;
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
-p {
-    font-size: 1rem;
-    margin-bottom: 20px;
-}
-
-.video-placeholder {
-    width: 100%;
-    height: 200px;
-    background-color: #444;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-
-.navigation {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding: 10px;
-    background-color: #8b0000;
-    position: absolute;
-    bottom: 0;
-}
-
-.btn {
-    font-size: 2rem;
-    color: white;
-    text-decoration: none;
-    padding: 10px;
-}
-
-.image-container {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-}
-
-.image-container img {
-    width: 300px;
-    height: 200px;
-    object-fit: contain;
-    border-radius: 5px;
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
 }
 
 .column {
     float: left;
-    width: 33.33%;
+    width: 93%;
     padding: 5px;
   }
-
+  
   .row::after {
     content: "";
     clear: both;
