@@ -12,7 +12,7 @@ const SobreMi = () => {
             </div>
           </div>
           <div>
-            <h1 className='text-5xl font-bold mx-10'>Juan Guillermo Caicedo</h1>
+            <h1 className='text-6xl font-bold mx-10'>Juan Guillermo Caicedo</h1>
           </div>
         </div>
       </div>
@@ -24,7 +24,7 @@ const SobreMi = () => {
             los lenguajes C#, python y Javascript. Y experiencia en los motores
             graficos de Unity y Unreal.
           </p>
-          <img src={Conejos} className='max-w-sm rounded-lg shadow-2xl' />
+          <img src={Conejos} className=' rounded-lg shadow-2xl sm:w-120' />
         </div>
       </div>
     </section>
