@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const IntroPage = () => {
   return (
     <div className='hero bg-base-200 min-h-screen'>
@@ -8,7 +10,9 @@ const IntroPage = () => {
             Proyecto de portafolio centrado en el desarrollo de software y
             experiencias
           </p>
-          <button className='btn btn-primary'>Entrar</button>
+          <button className='btn btn-primary'>
+            <Link to='/Home'>Entrar</Link>
+          </button>
         </div>
       </div>
     </div>
