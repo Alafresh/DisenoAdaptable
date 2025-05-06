@@ -3,7 +3,7 @@ import Conejos from '/images/conejoides.jpg';
 
 const SobreMi = () => {
   return (
-    <section id='about' className='bg-blue-200'>
+    <section id='about' className='pt-20'>
       <div className='hero '>
         <div className='hero-content flex-col lg:flex-row'>
           <div className='avatar'>

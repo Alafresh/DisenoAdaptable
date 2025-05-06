@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 const NavBar = () => {
   return (
     <section>
-      <div className='navbar bg-base-100 shadow-sm'>
+      <div className='navbar bg-neutral shadow-sm fixed top-0 left-0 w-full z-50'>
         <div className='navbar-start'>
           <button className='btn btn-outline btn-warning mx-5'>
             <Link to='/'>Portafolio</Link>
@@ -32,13 +32,19 @@ const NavBar = () => {
               className='menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow'
             >
               <li>
-                <a href='#about'>Sobre Mi</a>
+                <a href='#about' className='text-xl'>
+                  Sobre Mi
+                </a>
               </li>
               <li>
-                <a>Proyectos</a>
+                <a href='#proyectos' className='text-xl'>
+                  Proyectos
+                </a>
               </li>
               <li>
-                <a>Contacto</a>
+                <a href='#contacto' className='text-xl'>
+                  Contacto
+                </a>
               </li>
             </ul>
           </div>
@@ -53,12 +59,12 @@ const NavBar = () => {
             </li>
             <li>
               <button className='btn btn-outline mx-3'>
-                <a>Proyectos</a>
+                <a href='#proyectos'>Proyectos</a>
               </button>
             </li>
             <li>
               <button className='btn btn-outline mx-3'>
-                <a>Contacto</a>
+                <a href='#contacto'>Contacto</a>
               </button>
             </li>
           </ul>
