@@ -1,15 +1,13 @@
 import NavBarTwo from '../components/NavBarTwo';
 import SobreProyecto from '../components/SobreProyecto';
-import CarouselProyectos from '../components/CarouselProyectos';
 
-const ProjectOne = () => {
+const ProjectFour = () => {
   return (
     <>
       <NavBarTwo />
       <SobreProyecto />
-      <CarouselProyectos />
     </>
   );
 };
 
-export default ProjectOne;
+export default ProjectFour;
