@@ -1,0 +1,19 @@
+@import 'tailwindcss';
+
+html,
+body {
+  width: 100vw;
+  background-color: black;
+  color: white;
+}
+
+/* (Ctrl+Shift+P) y ejecuta “Change Language Mode” y elige “CSS”*/
+@theme {
+  --color-white-50: #d9ecff;
+}
+
+@layer utilities {
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
+}
