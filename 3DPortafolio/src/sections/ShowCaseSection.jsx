@@ -49,36 +49,32 @@ const ShowCaseSection = () => {
     <section id='work' ref={sectionRef} className='app-showcase'>
       <div className='w-full'>
         <div className='showcaselayout'>
-          {/*Left Site*/}
+          {/* Proyecto principal */}
           <div className='first-project-wrapper' ref={project1Ref}>
             <div className='image-wrapper'>
-              <img src='/images/project1.png' alt='Ryde' />
+              <img src='/images/project1.png' alt='Transformers Visual' />
             </div>
 
             <div className='text-content'>
-              <h2>
-                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
-              </h2>
+              <h2>Transformers Visual</h2>
               <p className='text-white-50 md:text-xl'>
-                An app built with React Native, Expo, & TailwindCSS for a fast,
-                user-friendly experience
+                Visualización 3D hecha en Unity basada en el universo Transformers
               </p>
             </div>
           </div>
-          {/*Right Site*/}
+          {/* Proyectos secundarios */}
           <div className='project-list-wrapper overflow-hidden'>
             <div className='project' ref={project2Ref}>
               <div className='image-wrapper bg-[#ffefdb]'>
-                <img src='/images/project2.png' alt='Project 2' />
+                <img src='/images/project2.png' alt='Awakaruna' />
               </div>
-              <h2>Library Management Platform</h2>
+              <h2>Awakaruna</h2>
             </div>
             <div className='project' ref={project3Ref}>
               <div className='image-wrapper bg-[#ffe7eb]'>
-                <img src='/images/project3.png' alt='Project 3' />
+                <img src='/images/project3.png' alt='Laboralmente Joven' />
               </div>
-              <h2>YC Directory - A Startup Project Showcase</h2>
+              <h2>Laboralmente Joven</h2>
             </div>
           </div>
         </div>

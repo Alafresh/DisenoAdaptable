@@ -28,7 +28,7 @@ const Hero = () => {
           <div className='flex flex-col gap-7'>
             <div className='hero-text'>
               <h1>
-                Shaping
+                Desarrollando
                 <span className='slide'>
                   <span className='wrapper'>
                     {words.map((word) => (
@@ -49,16 +49,16 @@ const Hero = () => {
                 </span>
               </h1>
 
-              <h1>into Real Projects</h1>
-              <h1>that Deliver Results</h1>
+              <h1>como proyectos para el</h1>
+              <h1>entretenimiento digital</h1>
             </div>
             <p className='text-white-50 md:text-xl relative z-10'>
-              Hi, Im Juan, a developer based in Colombia with a pasion for code.
+              Hola, soy Sebastián, desarrollador ubicado en Colombia.
             </p>
             <Button
               className='md:w-80 md:h-16 w-60 h-12'
               id='button'
-              text='See my Work'
+              text='Trabajos'
             />
           </div>
         </header>
@@ -68,7 +68,7 @@ const Hero = () => {
           </div>
         </figure>
       </div>
-      <AnimatedCounter />
+      {/*<AnimatedCounter />*/}
     </section>
   );
 };
